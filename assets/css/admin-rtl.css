@@ -1,0 +1,32 @@
+/**
+ * WPCalibrate Merchant Feed Manager - RTL Stylesheet
+ */
+
+.wpcmfm-header-banner {
+	direction: rtl;
+}
+
+.wpcmfm-brand-logo {
+	margin-left: 16px;
+	margin-right: 0;
+}
+
+.wpcmfm-stat-card::before {
+	right: 0;
+	left: auto;
+}
+
+.wpcmfm-dot {
+	margin-left: 4px;
+	margin-right: 0;
+}
+
+.wpcmfm-health-bullet {
+	margin-left: 10px;
+	margin-right: 0;
+}
+
+.wpcmfm-health-metrics li strong {
+	margin-right: auto;
+	margin-left: 0;
+}

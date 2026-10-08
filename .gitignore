@@ -1,0 +1,35 @@
+# Secrets & Credentials
+ftp-config.json
+.env
+.env.*
+
+# AI Instructions, Project Memory & Planning (Strictly excluded)
+.agents/
+.claude/
+AGENTS.md
+CLAUDE.md
+PROJECT_MEMORY.md
+TROUBLESHOOTING.md
+CHANGELOG_AI.md
+TODO_AI.md
+
+# Build Tools, Packaging Scripts & Test Runners
+populate-slug-folder.php
+build-package.php
+deploy-ftp.php
+deploy-ftp.ps1
+tests/
+wpcalibrate-merchant-feed-manager/
+
+# Archives & Temporary files
+*.zip
+*.log
+wpcalibrate-merchant-feed-manager-*.zip
+wpcalibrate-merchant-feed-manager.zip
+
+# System & Editor
+vendor/
+node_modules/
+.DS_Store
+Thumbs.db
+Desktop.ini

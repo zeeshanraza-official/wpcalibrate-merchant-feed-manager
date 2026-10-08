@@ -1,0 +1,9 @@
+{
+    "host": "your-ftp-host.com",
+    "port": 21,
+    "user": "your-username",
+    "password": "your-password",
+    "remote_path": "/wp-content/plugins/wpcalibrate-merchant-feed-manager",
+    "passive": true,
+    "ssl": false
+}
